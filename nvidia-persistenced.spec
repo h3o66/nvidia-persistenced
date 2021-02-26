@@ -1,5 +1,5 @@
 Name:           nvidia-persistenced
-Version:        460.39
+Version:        460.56
 Release:        1%{?dist}
 Summary:        A daemon to maintain persistent software state in the NVIDIA driver
 Epoch:          3
@@ -124,6 +124,9 @@ fi
 %attr(750,%{name},%{name}) %{_sharedstatedir}/%{name}
 
 %changelog
+* Fri Feb 26 2021 Christian Birk <mail@birkc.de> - 3:460.56-1
+- Update to 460.56
+
 * Tue Jan 26 2021 Christian Birk <mail@birkc.de> - 3:460.39-1
 - Update to 460.39
 
